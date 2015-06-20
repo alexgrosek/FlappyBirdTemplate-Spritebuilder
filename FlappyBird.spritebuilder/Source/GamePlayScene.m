@@ -6,6 +6,7 @@
 
 - (void)initialize
 {
+    [self addObstacle];
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
     // will load a new Character from the CCB file we created for you named Character.
